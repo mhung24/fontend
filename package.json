@@ -1,11 +1,11 @@
 {
-  "homepage": "https://mhung24.github.io/font",
+  "homepage": "https://mhung24.github.io/fontend/",
   "name": "app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predevloy": "num run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
