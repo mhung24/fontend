@@ -5,6 +5,7 @@ import { FeaturedEvents } from "../Featured Events/FeaturedEvents";
 import { ForeignCooperation } from "../Foreign Cooperation/ForeignCooperation";
 import { Admission } from "../Admission/Admission";
 import { Other } from "../Other/Other";
+import { Footer } from "../Footer/Footer";
 
 export const Content = () => {
   return (
@@ -33,6 +34,10 @@ export const Content = () => {
         <div className="content-item">
           <Other />
         </div>
+      </div>
+
+      <div className="footer">
+        <Footer />
       </div>
     </>
   );
